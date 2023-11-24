@@ -58,4 +58,10 @@ async function checkWeather(){
     }
 document.getElementById('searcher').addEventListener('click',()=>{
      checkWeather()
+     inp.value=""
 })
+inp.addEventListener('keydown',(event)=>{
+    if(event.key=="Enter"){
+     checkWeather()
+     inp.value=""
+}})

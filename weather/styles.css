@@ -2,7 +2,7 @@
     background-image: url('./background.avif');
     background-repeat: no-repeat;
     background-size: cover;
-
+    height: 100vh;
 }
 
 #city {
